@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c876469-15ae-40db-840e-7d8688def36a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/core/ProfileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/hrms-test-data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/ConfigService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/ConfigService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ProfileTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/ConfigService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/ConfigService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ProfileTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645871618473</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="PROFILE NAME TEST">
+      <created>1646025033027</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646025033027</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,7 +139,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LOAD URL icehrm" />
-    <option name="LAST_COMMIT_MESSAGE" value="LOAD URL icehrm" />
+    <MESSAGE value="PROFILE NAME TEST" />
+    <option name="LAST_COMMIT_MESSAGE" value="PROFILE NAME TEST" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="0" width="596" height="728" key="#&lt;default&gt;" timestamp="1645954229165">
@@ -169,10 +163,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="479" y="223" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1645962786864" />
-    <state x="273" y="0" key="CommitChangelistDialog2" timestamp="1646024899250">
+    <state x="273" y="0" key="CommitChangelistDialog2" timestamp="1646025031976">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="273" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1646024899250" />
+    <state x="273" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1646025031976" />
     <state width="1323" height="378" key="GridCell.Tab.0.bottom" timestamp="1646024778984">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -213,10 +207,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1645960597630" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1645873880113">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1646025050635">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1645873880113" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1646025050635" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1645947645542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
