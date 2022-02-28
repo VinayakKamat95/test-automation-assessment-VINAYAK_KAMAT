@@ -6,12 +6,13 @@ import java.io.File;
 import java.io.IOException;
 
 public class ConfigService {
+
     private static Config singleInstance;
 
     public static Config getInstance() {
         if (singleInstance == null) {
             ObjectMapper objectMapper = new ObjectMapper();
-            final String configFilePath = System.getProperty("user.dir")+"/src/main/resources/Config.json";
+            final String configFilePath = System.getProperty("user.dir")+"/src/test/resources/Config.json";
             File configFile = new File(configFilePath);
             try{
                 singleInstance = objectMapper.readValue(configFile, Config.class);

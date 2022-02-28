@@ -17,6 +17,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class BaseTest {
+
     public static final String USER_DIR = System.getProperty("user.dir");
     protected final ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
 
@@ -33,7 +34,7 @@ public class BaseTest {
         webDriver.get(ConfigService.getInstance().getUrl());
     }
 
-    private WebDriver getWebDriver() {
+    protected WebDriver getWebDriver() {
         return driver.get();
     }
 

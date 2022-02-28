@@ -1,6 +1,7 @@
 package core;
 
 public class Config {
+
     private String url;
     private long timeout;
 
