@@ -9,6 +9,7 @@ public class LoginPage extends PageObject {
     By usernameTextBox = By.id("username");
     By passwordTextBox = By.id("password");
     By loginButton = By.xpath("//button[contains(text(),'Log in ')]");
+//    By cancel = By.xpath("//*[@id=\"verifyModel\"]/div/div/div[2]/form/div[2]/div[1]/button[2]");
 
     public LoginPage(WebDriver driver) {
         super(driver);
@@ -24,6 +25,7 @@ public class LoginPage extends PageObject {
 
     public DashboardPage clickLogin() {
         click(loginButton);
+//        click(cancel);
         return new DashboardPage(webDriver);
     }
 }

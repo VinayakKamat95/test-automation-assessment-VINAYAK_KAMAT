@@ -5,6 +5,15 @@ public class HrmTestData {
     private String username;
     private String password;
     private String expectedFullName;
+    private String employeeNumber;
+
+    public String getEmployeeNumber() {
+        return employeeNumber;
+    }
+
+    public void setEmployeeNumber(String employeeNumber) {
+        this.employeeNumber = employeeNumber;
+    }
 
     public String getUsername() {
         return username;

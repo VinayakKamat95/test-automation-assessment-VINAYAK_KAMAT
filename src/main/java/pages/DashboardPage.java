@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 public class DashboardPage extends PageObject {
 
     By myProfileLink = By.id("myProfileLink");
+    By peopleLink = By.id("employeeLink");
 
     public DashboardPage(WebDriver driver) {
         super(driver);
@@ -15,5 +16,10 @@ public class DashboardPage extends PageObject {
     public ProfilePage clickViewProfile() {
         click(myProfileLink);
         return new ProfilePage(webDriver);
+    }
+
+    public PeoplePage clickViewPeople() {
+        click(peopleLink);
+        return new PeoplePage(webDriver);
     }
 }

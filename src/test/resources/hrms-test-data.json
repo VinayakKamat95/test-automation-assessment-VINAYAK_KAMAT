@@ -2,11 +2,13 @@
   {
     "username" : "user1",
     "password" : "demouserpwd",
-    "expectedFullName" : "Sofia O'Sullivan"
+    "expectedFullName" : "Sofia O'Sullivan",
+    "employeeNumber" : "EMP003"
   },
   {
     "username" : "user2",
     "password" : "demouserpwd",
-    "expectedFullName" : "Taylor Holmes"
+    "expectedFullName" : "Taylor Holmes",
+    "employeeNumber" : "EMP004"
   }
 ]

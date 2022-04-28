@@ -38,13 +38,13 @@ public class BaseTest {
         return driver.get();
     }
 
-    @AfterMethod
-    public void tearDown (ITestResult testResult) throws IOException {
-        if (testResult.getStatus() == ITestResult.FAILURE) {
-            takeScreenshot(testResult);
-        }
-        getWebDriver().quit();
-    }
+//    @AfterMethod
+//    public void tearDown (ITestResult testResult) throws IOException {
+//        if (testResult.getStatus() == ITestResult.FAILURE) {
+//            takeScreenshot(testResult);
+//        }
+//        getWebDriver().quit();
+//    }
 
     private void takeScreenshot(final ITestResult testResult) throws IOException {
         TakesScreenshot takesScreenshot = (TakesScreenshot) getWebDriver();
